@@ -7,44 +7,26 @@
 int main()
 {
     int k;
-    printf("\tGet ready for the blast\n\tLet's go... \n");
+    printf("\n\tHey buddy!");
     sleep(1);
-    printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |   A   |  \t|   B   |  \t|   C   |  \t|   D   |  \t|   E   |  \t|   F   |  \t|   G   |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t  -------   \t -------   \t -------   \t -------   \t -------   \t -------   \t -------\n");
+    printf("\n\n\tPlease choose a card from below\n");
     sleep(1);
-    printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |   H   |  \t|   I   |  \t|   J   |  \t|   k   |  \t|   L   |  \t|   M   |  \t|   N   |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t  -------    \t -------    \t -------    \t -------    \t -------    \t -------    \t -------\n");
+    printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  A  |  |  B  |  |  C  |  |  D  |  |  E  |  |  F  |  |  G  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n");
+    printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  H  |  |  I  |  |  J  |  |  K  |  |  L  |  |  M  |  |  N  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n");
+    printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  O  |  |  P  |  |  Q  |  |  R  |  |  S  |  |  T  |  |  U  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n");
     sleep(1);
-    printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |   O   |  \t|   P   |  \t|   Q   |  \t|   R   |  \t|   S   |  \t|   T   |  \t|   U   |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-           "\t  -------    \t -------    \t -------    \t -------    \t -------    \t -------    \t -------\n");
-    sleep(1);
-    printf("\tHey buddy!");
-    sleep(1);
-    printf("\n\n\tPlease choose a card given above and don't say me.\n\tJust keep the letter card remember on your mind.\n");
-    sleep(3);
-    printf("\n\tI will play 3 rounds with you and each round will have maximum 2 parts.\n\n\tJust see, I will read your unpredictable mind.\n\n");
-    sleep(3);
     printf("\n\tIf you have already chosen the card, press y: ");
     char f;
     scanf("%c",&f);
@@ -74,15 +56,11 @@ int main()
         t+=3;
     }
     sleep(1);
-    printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t  -------   \t -------   \t -------   \t -------   \t -------   \t -------   \t -------\n",
+    printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n",
            x[0],x[1],x[2],x[3],x[4],x[5],x[6]);
     printf("\t1st round: \n\tIs there the card you have chosen?\n\n\tTo say yes press y and press n to say no:");
     scanf("%c",&f);
@@ -111,15 +89,11 @@ int main()
     {
         sleep(1);
 
-        printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t  -------   \t -------   \t -------   \t -------   \t -------   \t -------   \t -------\n",
+        printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n",
                y[0],y[1],y[2],y[3],y[4],y[5],y[6]);
         printf("\t1st round: \n\tIs there the card you have chosen?\n\n\tTo say yes press y and press n to say no:");
         scanf("%c",&f);
@@ -185,15 +159,11 @@ int main()
         t+=3;
     }
     sleep(1);
-    printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t  -------   \t -------   \t -------   \t -------   \t -------   \t -------   \t -------\n",
+    printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n",
            x[0],x[1],x[2],x[3],x[4],x[5],x[6]);
     printf("\t2nd round: \n\tIs there the card you have chosen?\n\n\tTo say yes press y and press n to say no:");
     scanf("%c",&f);
@@ -221,15 +191,11 @@ int main()
     else
     {
         sleep(1);
-        printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t  -------   \t -------   \t -------   \t -------   \t -------   \t -------   \t -------\n",
+        printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n",
                y[0],y[1],y[2],y[3],y[4],y[5],y[6]);
         printf("\t2nd round: \n\tIs there the card you have chosen?\n\n\tTo say yes press y and press n to say no:");
         scanf("%c",&f);
@@ -295,15 +261,11 @@ int main()
         t+=3;
     }
     sleep(1);
-    printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t  -------   \t -------   \t -------   \t -------   \t -------   \t -------   \t -------\n",
+    printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n",
            x[0],x[1],x[2],x[3],x[4],x[5],x[6]);
     printf("\tLast round\n\tIs there the card you have chosen?\n\n\tTo say yes press y and press n to say no:");
     scanf("%c",&f);
@@ -331,15 +293,11 @@ int main()
     else
     {
         sleep(1);
-        printf("\t  _______   \t _______   \t _______   \t _______   \t _______   \t _______   \t _______\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |  \t|   %c   |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t |       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |  \t|       |\n"
-               "\t  -------   \t -------   \t -------   \t -------   \t -------   \t -------   \t -------\n",
+        printf("\t  _____    _____    _____    _____    _____    _____    _____\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |  |  %c  |\n"
+           "\t |     |  |     |  |     |  |     |  |     |  |     |  |     |\n"
+           "\t  -----    -----    -----    -----    -----    -----    -----\n",
                y[0],y[1],y[2],y[3],y[4],y[5],y[6]);
         printf("\tLast round\n\tIs there the card you have chosen?\n\n\tTo say yes press y and press n to say no:");
         scanf("%c",&f);
@@ -386,21 +344,15 @@ int main()
         }
 
     }
-    sleep(1);
-    printf("\tThough you have not told me the position or the name of your chosen card\n\tBut I have already read your mind..\n\n");
-    sleep(4);
-    printf("\tDo you want to see the proof?\n\tHold on...\n");
-    sleep(5);
+   sleep(1);
+   printf("\n\tHold on...\n");
+    sleep(2);
     printf("\n\n\tBang Bang!\n\tYou have chosen this card.\n\tHahahahahahah...\n");
-    printf("\t  _______\n"
-           "\t |       |\n"
-           "\t |       |\n"
-           "\t |       |\n"
-           "\t |   %c   |\n"
-           "\t |       |\n"
-           "\t |       | \n"
-           "\t |       |\n"
-           "\t  ------- \n",
+    printf("\t  _____\n"
+           "\t |     |\n"
+           "\t |  %c  |\n"
+           "\t |     |\n"
+           "\t  ----- \n",
            m[10]);
-    return 0;
+    getchar();
 }
